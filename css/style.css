@@ -249,28 +249,6 @@ body {
 }
 
 /* Konten image skills */
-.JavaScript {
-  width: 125px;
-  border-radius: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s;
-}
-
-.JavaScript:hover {
-  transform: rotateY(30deg) scale(1.15);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
-}
-
-.GameMaker {
-  width: 125px;
-  border-radius: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s;
-}
-
-.GameMaker:hover {
-  transform: scale(1.12);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
-}
-
 .HTML5 {
   width: 125px;
   border-radius: 12px;
@@ -278,7 +256,7 @@ body {
 }
 
 .HTML5:hover {
-  transform: scale(1.12);
+  transform: rotateY(30deg) scale(1.12);
   box-shadow: 0 10px 25px rgba(0,0,0,0.7);
 }
 
