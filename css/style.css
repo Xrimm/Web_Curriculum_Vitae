@@ -42,3 +42,22 @@ body {
   transform: scale(1.7);
   box-shadow: 0 10px 25px rgba(0,0,0,0.7);
 }
+
+.button_and_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+#popup_biodata { display: none; }
+
+.button_biodata {
+  padding: 15px 20px;
+  background: #2F2C40;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #9B95BF;
+}
