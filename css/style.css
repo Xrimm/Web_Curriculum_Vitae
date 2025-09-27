@@ -189,3 +189,128 @@ body {
   line-height: 1.5;
 }
 
+/* Button skills */
+#checkbox_skills { display: none; }
+
+.button_skills {
+  margin-top: 40px;
+  padding: 15px 66px;
+  background: #2F2C40;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #D9D9D9;
+}
+
+.button_skills:hover {
+  transform: scale(1.1);
+  background: #595379;
+}
+
+#checkbox_skills:checked ~ .overlay_skills {
+  display: flex;
+}
+
+/* Overlay dan popup skills */
+.overlay_skills {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup_skills {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #D9D9D9;
+  border-radius: 12px;
+  gap: 24px;
+  padding: 24px;
+  max-width: 700px;
+  color: #2F2C40;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup_skills h2 {
+  margin-top: 20px;
+}
+
+.popup_skills .details_skills {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  perspective: 500px;
+}
+
+/* Konten image skills */
+.JavaScript {
+  width: 125px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.JavaScript:hover {
+  transform: rotateY(30deg) scale(1.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+
+.GameMaker {
+  width: 125px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.GameMaker:hover {
+  transform: scale(1.12);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+
+.HTML5 {
+  width: 125px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.HTML5:hover {
+  transform: scale(1.12);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+
+.CSS {
+  width: 125px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.CSS:hover {
+  transform: rotateY(-30deg) scale(1.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+
+/* Footer media sosial */
+.footer {
+  display: flex;
+  flex: 1;
+  margin-top: 70px;
+  gap: 26px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo_X {
+  width: 35px;
+}
+
+.discord {
+  width: 46px;
+}
+
+.instagram {
+  width: 43px;
+}

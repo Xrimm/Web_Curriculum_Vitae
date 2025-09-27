@@ -5,24 +5,30 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Curriculum Vitae</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
 
     <body>
+        <!-- Profile -->
         <div class="profile_container">
             <div>
-                <img src="../assets/profile_photo.jpg" alt="profile_photo" class="profile_avatar">
+                <img src="/assets/profile_photo.jpg" alt="profile_photo" class="profile_avatar">
             </div>
 
+            <!-- Button checkbox -->
             <input type="checkbox" id="checkbox_biodata">
             <label for="checkbox_biodata" class="button_biodata">Biodata</label>
 
             <input type="checkbox" id="checkbox_pendidikan">
             <label for="checkbox_pendidikan" class="button_pendidikan">Pendidikan</label>
 
+            <input type="checkbox" id="checkbox_skills">
+            <label for="checkbox_skills" class="button_skills">Skills</label>
+
+            <!-- Overlay dan Popup -->
             <div class="overlay_biodata">
                 <div class="popup_biodata">
-                    <img src="../assets/profile_photo.jpg" alt="profile_popup">
+                    <img src="/assets/profile_photo.jpg" alt="profile_popup">
                     <div class="details_biodata">
                         <h2>Biodata</h2>
                         <p>Evan Safi Maulana Malik Ibrahim</p>
@@ -36,10 +42,29 @@
             <div class="overlay_pendidikan">
                 <div class="popup_pendidikan">
                     <h2>Pendidikan</h2>
-                    <img src="../assets/logo_UNDIKNAS.png" alt="logo_undiknas">
+                    <img src="/assets/logo_UNDIKNAS.png" alt="logo_undiknas">
                     <p><b>Universitas Pendidikan Nasional</b></p>
                     <label for="checkbox_pendidikan" class="close_button">Close</label>
                 </div>
+            </div>
+
+            <div class="overlay_skills">
+                <div class="popup_skills">
+                    <h2>Skills</h2>
+                    <div class="details_skills">
+                        <img src="/assets/JavaScript_logo.png" class="JavaScript" alt="JavaScript_logo">
+                        <img src="/assets/GameMaker_Logo.png" class="GameMaker" alt="GameMaker_Logo">
+                        <img src="/assets/HTML5_logo.png" class="HTML5" alt="HTML5_logo">
+                        <img src="/assets/CSS_Logo.png" class="CSS" alt="CSS_Logo">
+                    </div>
+                    <label for="checkbox_skills" class="close_button">Close</label>
+                </div>
+            </div>
+
+            <div class="footer">
+                <a href="https://x.com/undiknas?t=fHA9Y3Dc4qhcWo51G_MkLg&s=09" target="_blank"><img src="/assets/Logo_X.png" class="Logo_X" alt="Logo_X"></a>
+                <a href="https://discord.com/users/877254003392659486" target="_blank"><img src="/assets/Discord-Symbol-Blurple.png" class="discord" alt="discord"></a>
+                <a href="https://www.instagram.com/undiknas?igsh=MXgzeGk3cHd5aGwz" target="_blank"><img src="/assets/instagram.png" class="instagram" alt="instagram"></a>
             </div>
         </div>
     </body>
