@@ -18,12 +18,13 @@ body {
   color: #2F2C40;
   border-radius: 12px;
   box-shadow: 0 4px 9px rgba(0,0,0,0.30);
-  padding: 32px;
+  padding: 40px;
 }
 
 .profile_header {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 24px;
   margin-bottom: 24px;
 }
@@ -33,6 +34,11 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #e1e4e8;
+  border: 2px solid #344459;
   background: #eaeaea;
+}
+
+.profile_avatar:hover {
+  transform: scale(1.7);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
 }
